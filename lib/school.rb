@@ -14,6 +14,11 @@ class School
     @roster[@student_grade] ||= []; @roster[@student_grade] << @student_name
   end
   
+  def grade(grade)
+    @Key = grade
+    @roster[@key].map do |students|
+      students
+    end
   
   
 end
