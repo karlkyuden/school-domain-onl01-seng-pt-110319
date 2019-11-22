@@ -16,7 +16,7 @@ class School
   
   def grade(grade)
     @Key = grade
-    @roster[@key].map do |students|
+    @roster[@key].collect do |students|
       students
     end
   end
