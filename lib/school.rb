@@ -11,6 +11,7 @@ class School
   def add_student(name, grade)
     @student_name = name
     @student_grade = grade
+    @roster[@student_grade] ||= []; @roster[@student_grade] << @student_name
   end
   
   
