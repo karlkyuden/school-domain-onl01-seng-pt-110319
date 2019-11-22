@@ -15,11 +15,11 @@ class School
   end
   
   def grade(grade)
-  @key = grade
-  @roster[@key].collect do |students|
-   students
+    @key = grade
+    @roster[@key].collect do |students|
+     students
+    end
   end
-end
   
   
 end
