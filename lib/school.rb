@@ -19,6 +19,7 @@ class School
     @roster[@key].map do |students|
       students
     end
+  end
   
   
 end
